@@ -16,8 +16,8 @@ const argv = require('yargs')
                     demandOption: false,
                     describe: 'Muestra la tabla multiplicada',
                     default: false,
-                }).option('x', {
-                    alias: 'x',
+                }).option('h', {
+                    alias: 'hasta',
                     type: 'number',
                     demandOption: false,
                     describe: 'Hasta que numero se multiplicará',
